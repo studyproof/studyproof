@@ -2,34 +2,35 @@
 <html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <meta charset="utf-8">
 <title>studyproof</title>
 </head>
+<body>
 <header>
 	<img src="icon.png" id="icon">
 	<div class="anchors font1">
-	<a href="">
+	<a href="#first">
 	<div class="anchor">
 		About
 	</div>
 		</a>
-		<a href="">
+		<a href="#second">
 	<div class="anchor">
 		Platform
 	</div>
 		</a>
-    <a href="">
+    <a href="#third">
     <div class="anchor">
-    	Tokens
+    	Roadmap
     </div>
         </a>
-        <a href="">
+        <a href="#fourth">
     <div class="anchor">
     	ICO
     </div>
 		</a>
 	</div>
-	<!--<img src="HAR.jpg" width="100%" id="img">-->
 	<div class="name font">
 		Study Proof
 	</div>
@@ -43,12 +44,71 @@
 	</a>
 	<img src="difb.png" id="books">
 </header>
-<content>
-	
+<content class="content">
+	<div class="about">
+		<img src="HARd.jpg" id="img">
+		    <span class="abouttext font">All your achievements won't be forgotten</span>
+	</div>
+	<div class="opis">
+	    <div class="k font1" id="first">
+		    about
+	    </div>	
+	<div class="name font">
+		Blockchain storage
+	</div>
+	<div class="desk font1">
+		Lorem ipsum
+	</div>
+	    <img src="1499345628-paper_85355.png" id="blank">
+	</div>
+	<div class="opis">
+	    <div class="k font1" id="second">
+		    platform
+	    </div>
+	<div class="name font">
+		Smart platform
+	</div>
+	<div class="desk font1">
+		Lorem ipsum
+	</div>
+	</div>
+	<div class="opis">
+	    <div class="k font1" id="third">
+		    roadmap
+	    </div>
+	<div class="name font">
+		Our roadmap
+	</div>
+	<div class="desk font1">
+		Lorem ipsum
+	</div>
+	</div>
+	<div class="opis">
+	    <div class="k font1" id="fourth">
+		    ICO
+	    </div>
+	<div class="name font">
+		ICO plans
+	</div>
+	<div class="desk font1">
+		Lorem ipsum
+	</div>
+	<!--<img src="1499345628-paper_85355.png" id="blank">-->
+	</div>
 </content>
 <footer>
-	
 </footer>
-<body>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("a[href*=#]").on("click", function(e){
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top - 90
+        }, 777);
+        e.preventDefault();
+        return false;
+    });
+});
+</script>
 </body>
 </html>
