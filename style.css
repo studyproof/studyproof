@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+/* css0 */
+@font-face {
+	font-family: local;
+	src: url(Gillroy.otf);
+}
+@font-face {
+	font-family: local1;
+	src: url(Gillroyl.otf);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: rgba(40,40,40,1.00);
+}
+body {
+	height: 1000px;
+	padding: 50px;
+	background: linear-gradient(135deg, rgba(216,0,107,1.00), rgba(16,76,239,1.00)) no-repeat;
+}
+header {
+	background-color: white;
+	height: 1000px;
+	box-shadow: 0px 0px 25px 20px rgba(0,0,0,0.1);
+}
+#icon {
+	position: absolute;
+	width: 50px;
+	margin: 50px 0 0 5%;
+}
+.font {
+	font-family: local;
+	font-size: 24px;
+	color: rgba(40,40,40,1.00);
+}
+.font1 {
+	font-family: local1;
+	font-size: 24px;
+	color: rgba(40,40,40,1.00);
+}
+.anchors {
+	position: absolute;
+	margin-left: 50%;
+}
+.content {
+	height: 1000px;
+	background-color: white;
+}
+#books {
+	position: absolute;
+	margin-left: 55%;
+	margin-top: 200px;
+	width: 360px;
+}
+.name {
+	position: absolute;
+	margin-top: 195px;
+	margin-left: 15%;
+	font-size: 84px;
+}
+.desk {
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 15%;
+	font-size: 30px;
+	width: 400px;
+}
+.button {
+	position: absolute;
+	margin-left: 15%;
+	font-size: 24px;
+	border: solid;
+	border-radius: 30px;
+	padding: 10px 18px;
+	border-color: rgba(212,0,3,1.00);
+	margin-top: 495px;
+}
+.button:hover {
+	transform: translate(15px);
+	transition: 0.2s ease-in;
+}
+.anchors {
+	position: absolute;
+	margin: 60px 0px 0px 52.5%;
+}
+.anchor {
+	display: inline-block;
+	margin: 0px 20px;
+	font-size: 21px;
+	font-weight: bold;
+}
+.anchor:hover {
+	border-bottom: solid;
+	transition: 0.2s;
+}
