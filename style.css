@@ -310,7 +310,13 @@ header {
 		font-size: 42px;
 	}
 	.k {
-		display: none;
+		margin: 70px 0px 0px 5px;
+	}
+	.k1 {
+		margin-left: -5px;
+	}
+	.k2 {
+		margin-left: -20px;
 	}
 	.desk {
 		font-size: 24px;
