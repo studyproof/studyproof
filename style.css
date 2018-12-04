@@ -49,7 +49,7 @@ header {
 }
 .font1 {
 	font-family: local1;
-	font-size: 24px;
+	font-size: 25px;
 	color: rgba(40,40,40,1.00);
 }
 .anchors {
@@ -72,7 +72,12 @@ header {
 	position: absolute;
 	margin: 300px 0px 0px 15%;
 	font-size: 30px;
-	width: 400px;
+	width: 470px;
+	color: rgba(27,27,27,1.00);
+}
+.color {
+	font-weight: 900;
+	color: rgba(217,0,128,1.00);
 }
 .button {
 	position: absolute;
@@ -90,7 +95,7 @@ header {
 }
 .anchors {
 	position: absolute;
-	margin: 60px 0px 0px 52.5%;
+	margin: 60px 0px 0px 52%;
 }
 .anchor {
 	display: inline-block;
@@ -139,8 +144,14 @@ header {
 	transform: rotate(-90deg);
 	border-bottom: solid;
 }
-#blank {
+.blank {
 	position: absolute;
-	margin: 270px 0px 0px 70%;
-	width: 250px;
+	margin: 320px 0px 0px 64%;
+	width: 280px;
+}
+#imgr {
+	position: absolute;
+	width: 40%;
+	left: 55%;
+	top: 300px;
 }
