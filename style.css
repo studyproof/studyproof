@@ -143,6 +143,9 @@ header {
 	transform: rotate(-90deg);
 	border-bottom: solid;
 }
+.ww {
+	font-size: 20px;
+	word-wrap: break-word;
 .blank {
 	position: absolute;
 	margin: 320px 0px 0px 64%;
