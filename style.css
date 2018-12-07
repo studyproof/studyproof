@@ -146,6 +146,8 @@ header {
 .ww {
 	font-size: 20px;
 	word-wrap: break-word;
+	Max-width: 400px;
+}
 .blank {
 	position: absolute;
 	margin: 320px 0px 0px 64%;
