@@ -1,1 +1,78 @@
-
+<!doctype html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../favicon.png" type="image/png">
+<meta name="description" content="Першая у свеце платформа для захоўвання дасягненняў і ўзнагарод для моладзі">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Study Proof - Заахвочвальная інтэрнэт платформа"/>
+<meta property="og:description" content="Першая у свеце платформа для захоўвання дасягненняў і ўзнагарод для моладзі"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content= "http://studyproof.github.io"/>
+<meta property="og:image" content="og.png"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<meta charset="utf-8">
+<title>Study Proof</title>
+</head>
+<body>
+<header>
+<div class="reit">
+	Рэйтынг Study Proof
+</div>
+<div class="list">
+	<p class="line">
+		<span class="number">
+			1.
+		</span>
+		<span class="name">
+			Хамета Максим Юрьевич
+		</span>
+		<span class="stud">
+			800 STUD
+		</span>
+		<span class="more" onClick="expandit(this)" style="cursor: pointer">
+			Падрабязней&#8595;
+		</span>
+		<span style="display:none"><br>
+        г. Минск, гимназия №33, 11 класс<br><br>
+        Призер Республиканской олимпиады по географии (трижды)<br>
+        Обладатель Премии Президента (трижды)<br>
+        Участник международного математического лагеря Кенгуру<br>
+        Спикер TEDxYouth
+        </span>
+	</p>
+	<p class="line">
+		<span class="number">
+			2.
+		</span>
+		<span class="name">
+			Козодой Роман Юрьевич
+		</span>
+		<span class="stud">
+			400 STUD
+		</span>
+		<span class="more"  onClick="expandit(this)" style="cursor: pointer">
+			Падрабязней&#8595;
+		</span>
+		<span style="display:none"><br>
+        г. Минск, гимназия №21, 11 класс<br><br>
+        Призер Республиканской олимпиады по географии (дважды)<br>
+        Обладатель Премии Президента (дважды)
+        </span>
+	</p>
+</div>
+</header>
+</body>
+<script>
+var ns6=document.getElementById&&!document.all?1:0
+var head="display:''"
+var folder=''
+function expandit(curobj){
+folder=ns6?curobj.nextSibling.nextSibling.style:document.all[curobj.sourceIndex+1].style
+if (folder.display=="none")
+folder.display=""
+else
+folder.display="none"
+}
+</script>
+</html>
