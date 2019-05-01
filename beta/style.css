@@ -38,6 +38,10 @@ header {
 	font-weight: 900;
 	margin-bottom: 25px;
 }
+.inf {
+	font-size: 16px;
+	float: right;
+}
 .line {
 	font-family: local;
 	margin: 10px 0px;
